@@ -1,0 +1,71 @@
+body {
+	font-family: Raleway;
+}
+
+header {
+	background-color: rgb(134, 130, 130);
+	background-image: url(../img/pexels-jonathan-borba-14269507.jpg);
+	background-blend-mode: color-burn;
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+}
+
+nav {
+	margin-bottom: 450px;
+}
+
+.section {
+	margin-block: 3.5em;
+}
+
+.section>p>span {
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 6rem;
+}
+
+#mobile-menu {
+	padding-top: 1em;
+}
+
+blockquote {
+	margin: 1em 0;
+	padding: 1em;
+}
+
+cite {
+	display: block;
+	text-align: right;
+	margin-top: 1em;
+}
+
+.comment {
+	border-radius: 9px;
+	padding-block: .5em;
+}
+
+.container.login.center {
+	display: flex;
+	place-items: center;
+}
+
+.login {
+	min-height: 100vh;
+}
+
+.modal-content>p {
+	font-size: 1.5rem;
+}
+
+@media screen and (max-width:640px) {
+	header {
+		max-height: 500px;
+	}
+
+
+}
